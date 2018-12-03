@@ -37,12 +37,13 @@ class FilmReleaseContainer extends React.Component {
     };
   } // bottom of constructor
 
+
   render(){
     return(
       <div className="film-release-container">
         <h2>Upcoming Film Releases</h2>
         <FilmList data={this.state.data}/>
-        <ViewMore/>
+        <ViewMore className="view-more"/>
       </div>
     )
 
